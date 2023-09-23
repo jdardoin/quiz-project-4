@@ -1,4 +1,48 @@
 body {
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+#quiz {
+    padding: 5rem;
+    width: 30rem;
+    background-color: rgb(163, 158, 162);
+
+
+    color: brown;
+
+}
+
+.hide {
+    display: none;
+}
+
+.quizcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+}
+
+#question {
+    font-size: 1em;
+}
+
+#choices {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.option {
+    border-radius: 3px;
+    background-color: palevioletred;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    padding: .25rem;
+}
+
+.option:hover {
+    cursor: pointer;
 }

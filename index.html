@@ -8,18 +8,25 @@
     <title>JavaScript Quiz</title>
 </head>
 
-
 <body>
+    <div class="quizcontainer">
+        <div class="opening-message">
+            <h1>JavaScript Quiz</h1>
+            <p> Click the Start button to begin</p>
+        </div>
+        <div>
+            <p><span id="timer">Time</span></p>
+        </div>
+        <div id="quiz" class="hide">
 
-    <h1>Coding Quiz Changelle </h1>
+            <p id="question"></p>
+            <div id="choices"></div>
+            <p id="result"></p>
+        </div>
+        <button id="startButton">Start Quiz</button>
+    </div>
 
-
-    <p> Try to complete the quiz and anwer the all questions correclty. If a question is answered incorrectly 10 seconds
-        will be remove the timer.</p>
-
-    <button>Start Quiz</button>
-
-
+    <script src="./java.js"> </script>
 </body>
 
 </html>
